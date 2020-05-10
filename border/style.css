@@ -1,0 +1,10 @@
+
+.list-item{
+    margin-bottom: 5px;
+   border-width: 1px;
+   border-style: solid;
+   border-color: #888;
+   /* or 
+   border: 1px solid #888; */
+   border-radius:5px ;
+} 

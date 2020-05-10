@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.image{
+    width: 128px;
+    height: 128px;
+    background-image: url('https://picsum.photos/200/300');
+    background-position: center;
+    background-size: cover;
+}
+.image:hover .overlay{
+    display: flex;
+}
+.overlay{
+    
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient( rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 0%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:#AAA;
+}

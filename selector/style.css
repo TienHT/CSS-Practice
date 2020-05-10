@@ -1,0 +1,20 @@
+/* select by id */
+#intro{
+    font-weight: bold;
+}
+/* select by class */
+.center{
+    text-align: center;
+}
+/* select multi elements */
+h1, p {
+color:firebrick;
+font-family: sans-serif;
+}
+/* Select by attribute */
+a[target]{
+    color: red;
+}
+input[type="text"]{
+    border: 1px solid red;
+}

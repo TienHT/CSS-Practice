@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  
+    align-items: flex-end;
+    text-align: center;
+    color: bisque;
+}
+.child-1{
+    background-color: red;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+.child-2{
+    background-color: blue;
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+.container-swap .child-1{
+    order: 1;
+}

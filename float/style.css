@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.header{
+    height: 100px;
+}
+.content1{
+    float: left;
+    width: 30%;
+}
+.content2{
+    float: left;
+    width: 30%;
+}
+.content3{
+    float: left;
+    
+    width: 30%;
+}
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.footer{
+    height: 100px;
+}

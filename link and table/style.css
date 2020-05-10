@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+ul {
+    list-style-type: circle;
+    background-color: aqua;
+}
+li.a{
+    list-style-type: lower-alpha;
+    background-color: aquamarine;
+}
+ol{
+    list-style-type: none;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+th,td{
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+}
+th{
+    background-color: #4CAF50;
+    color: white;
+}
+td:hover{
+    background-color:#888;
+}

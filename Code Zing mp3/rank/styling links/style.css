@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.rank{
+    display: flex;
+    flex-direction: column;
+   
+}
+.detail-rank{
+    
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.info{
+    padding-top: 10px;
+}
+.info .song-title{
+    font-size: 20px;
+}
+.info .name,.view{
+    font-size: 15px;
+    color: #BBB;
+}
+
+
+.album-cover{
+    height: 128px;
+    width: 128px;
+    background-color: #BBB;
+    background-image: url('https://picsum.photos/200/300');
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    
+}
+
+.overlay{
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 50%);
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.text{
+    color:white;
+    font-size: 20px;
+    
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+a:link{
+    color: #FF0000;
+}
+a:visited{
+    color: #00ff00;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color: blue;
+}
+/* Hover over a <div> element to show a <p> element (like a tooltip): */
+.showmore p{
+    display: none;
+}
+.showmore:hover p{
+    display: block;
+}
+/* The :first-child pseudo-class matches a specified element that is the first child of another element. */
+.first p:first-child{
+color: blue;
+}
+.first-letter::first-letter{
+ 
+    color: #FF0000;
+    font-size: 200%;
+}
+.beaf::before{
+    content:url('tenor.gif');
+    background-size: 20%;
+}
+.beaf::after{
+    content:url('tenor.gif');
+   
+}
